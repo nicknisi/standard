@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "standard",
+  "version": "1.0.0",
+  "description": "A standard Prettier config, eslint config, and tsconfig for my projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prettier",
+    "eslint",
+    "typescript",
+    "tsconfig",
+    "config"
+  ],
+  "author": {
+    "name": "Nick Nisi",
+    "email": "nick@nisi.org"
+  },
+  "license": "ISC"
+}
