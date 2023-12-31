@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@nicknisi/standard':
+    specifier: 0.0.1
+    version: 0.0.1
   npm-run-all2:
     specifier: ^6.1.1
     version: 6.1.1
@@ -52,6 +55,10 @@ packages:
       strip-ansi-cjs: /strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: /wrap-ansi@7.0.0
+    dev: true
+
+  /@nicknisi/standard@0.0.1:
+    resolution: {integrity: sha512-VwHjf29y4NHP9vX/vKcNt9lwcrucNcAOWF0012MgrYqcwmzbMlEiL6hTgsYh4Js5BCaVsUUiYSr1YEQhKElc5w==}
     dev: true
 
   /@pkgjs/parseargs@0.11.0:
