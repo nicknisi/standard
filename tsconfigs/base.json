@@ -12,10 +12,6 @@
 		"noImplicitThis": true,
 		"strictNullChecks": true,
 		"noUnusedLocals": true,
-		"noUncheckedIndexedAccess": true,
-
-		"allowJs": true,
-
-		"jsx": "react-jsx"
+		"noUncheckedIndexedAccess": true
 	}
 }
