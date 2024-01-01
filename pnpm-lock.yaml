@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@nicknisi/standard':
-    specifier: 0.0.1
-    version: 0.0.1
+    specifier: 0.0.2
+    version: 0.0.2
   npm-run-all2:
     specifier: ^6.1.1
     version: 6.1.1
@@ -57,8 +57,8 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
 
-  /@nicknisi/standard@0.0.1:
-    resolution: {integrity: sha512-VwHjf29y4NHP9vX/vKcNt9lwcrucNcAOWF0012MgrYqcwmzbMlEiL6hTgsYh4Js5BCaVsUUiYSr1YEQhKElc5w==}
+  /@nicknisi/standard@0.0.2:
+    resolution: {integrity: sha512-vofJZ2jRNQGTo7R8g6cH2QCqrr4D/TwjBvdWYHDw4abeUyDANknyfXSi/zgwUxGX7MQJVIgQrw8kX5uvdZ34NA==}
     dev: true
 
   /@pkgjs/parseargs@0.11.0:
