@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json.schemastore.org/package",
 	"name": "@nicknisi/standard",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"type": "module",
 	"description": "A standard Prettier config, eslint config, and tsconfig for my projects.",
 	"scripts": {
@@ -14,7 +14,10 @@
 	"exports": {
 		"./prettier": "./dist/prettier/config.js",
 		"./tsconfigs/*.json": "./tsconfigs/*",
-		"./tsconfigs/*": "./tsconfigs/*.json"
+		"./tsconfigs/*": "./tsconfigs/*.json",
+		"./eslint": "./src/eslint/index.js",
+		"./eslint/configs/*.js": "./src/eslint/configs/*.js",
+		"./eslint/configs/*": "./src/eslint/configs/*.js"
 	},
 	"files": [
 		"dist",
@@ -34,10 +37,16 @@
 	"bugs": "https://github.com/nicknisi/standard/issues/new",
 	"license": "MIT",
 	"devDependencies": {
-		"@nicknisi/standard": "0.0.2",
+		"@nicknisi/standard": "^0.1.0",
+		"eslint": "^8.56.0",
 		"npm-run-all2": "^6.1.1",
 		"prettier": "^3.1.1",
 		"rimraf": "^5.0.5",
 		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.16.0",
+		"@typescript-eslint/parser": "^6.16.0",
+		"eslint-define-config": "^2.1.0"
 	}
 }

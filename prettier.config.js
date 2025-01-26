@@ -1,1 +1,3 @@
-export { default } from '@nicknisi/standard/prettier';
+export { configs } from '@nicknisi/standard/eslint';
+
+export default [configs.typescript({})];
